@@ -1,0 +1,117 @@
+------------------------------------------------
+history
+    1  docker image
+    2  docker images
+    3  docker yum update -y
+    4  sudo yum update -y
+    5  vi docker.sh
+    6  cat docker.sh
+    7  sh docker.sh
+    8  docker --version
+    9  docker images
+   10  docker pull nginx
+   11  docker images
+   12  docker run -it -d nginx
+   13  docker ps
+   14  docker stop 18cec4710ece
+   15  docker ps -a
+   16  docker rm 18cec4710ece
+   17  docker ps -a
+   18  docker run -it -d -p 8000:80 nginux
+   19  docker run -it -d -p 8000:80 nginx
+   20  docker ps
+   21  docker stop 9e0af2424c28
+   22  docker rm 9e0af2424c28
+   23  docker ps -a
+   24  docker image
+   25  docker images
+   26  docker ami eea7b3dcba7e
+   27  docker rmi eea7b3dcba7e
+   28  docker images
+   29  docker pull amazonlinux
+   30  docker images
+   31  docker run -it -d amazonlinux
+   32  docker images
+   33  docker ps
+   34  docker exec -it 488c8c8677ea /bin/bash
+   35  mkdir Dockerfile
+   36  ls
+   37  cd Dockerfile/
+   38  vi dockerfile
+   39  ls
+   40  cat dockerfile
+   41  cd .
+   42  cd ..
+   43  docker build -t gokulgowda30/demo Dockerfile/
+   44  docker images
+   45  docker run -it -d gokulgowda30/demo
+   46  docker ps
+   47  docker exec -it 8e9c01f58f78 /bin/bash
+   48  history
+--------------------------------------------------------------------------------------------------
+wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.tar.gz.sha512
+    2  yum install wget -y
+    3  wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.tar.gz.sha512
+    4  ls
+    5  tar -zxvf apache-tomcat-9.0.79.tar.gz
+    6  yum install tar -y
+    7  tar -zxvf apache-tomcat-9.0.79.tar.gz
+    8  yum install gzip -y
+    9  tar -zxvf apache-tomcat-9.0.79.tar.gz
+   10  ls
+   11  wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.tar.gz.sha512
+   12  tar -zxvf apache-tomcat-9.0.79.tar.gz
+   13  ls
+   14  yum install wget -y
+   15  tar -zxvf apache-tomcat-9.0.79.tar.gz
+   16  yum install gzip -y
+   17  yum install tar -y
+   18  tar -zxvf apache-tomcat-9.0.79.tar.gz
+   19  wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.tar.gz.sha512
+   20  ls
+   21  tar -zxvf apache-tomcat-9.0.79.tar.gz
+   22  tar -zxvf apache-tomcat-9.0.79.tar.gz
+   23  yum install tar -y
+   24  tar -zxvf apache-tomcat-9.0.79.tar.gz
+   25  ls
+   26  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.tar.gz
+   27  ls
+   28  tar -zxvf apache-tomcat-9.0.79.tar.gz
+   29  yum install tar -y
+   30  ls
+   31  cd apache-tomcat-9.0.79
+   32  ls
+   33  ls
+   34  cd bin/
+   35  ls
+   36  sh startup.sh
+   37  yum install java -y
+   38  cd apache-tomcat-9.0.79
+   39  cd ..
+   40  ls
+   41  cd..
+   42  cd ..
+   43  yum install java -y
+   44  cd apache-tomcat-9.0.79
+   45  ls
+   46  cd bin/
+   47  ls
+   48  sh startup.sh
+   49  history
+-------------------------------------------------------------------------------------------------
+FROM amazonlinux
+MAINTAINER "gokulramchandru@gmail.com"
+RUN yum update -y
+RUN yum install -y wget
+RUN yum install -y tar
+RUN yum install -y gzip
+RUN wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.79/bin/apache-tomcat-9.0.79.tar.gz
+RUN tar -zxvf apache-tomcat-9.0.79.tar.gz
+RUN yum install -y java
+RUN sh apache-tomcat-9.0.79/bin/startup.sh
+------------------------------------------------------------------------------------------------------
+1  ls
+    2  cd apache-tomcat-9.0.79/bin/
+    3  ls
+    4  sh startup.sh
+    5  history
